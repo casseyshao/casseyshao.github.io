@@ -1,10 +1,139 @@
 <!DOCTYPE html>
+
 <html lang="en">
-    <head>  
+    <head>
+        <title>Portfolio Website</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
     </head>
 
     <body>
-        <h1>Cassey's Portfolio Website</h1>
-        <p>Coming soon.</p>
+
+        <!-- Header -->
+        <header id="header" class="alt">
+            <h1>Cassey Shao</h1>
+            <p>Student • Junior Software Developer • Pilot</p>
+        </header>
+
+        <!-- Nav -->
+        <nav id="nav">
+            <ul>
+                <li><a href="#about" class="active">About</a></li>
+                <li><a href="#projects">Projects & Labs</a></li>
+                <li><a href="#interests">Other Interests</a></li>
+                <li><a href="#footer">Contact Info</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main -->
+        <div id="main">
+
+            <!-- About Section-->
+            <section id="about" class="main special">
+                <div class="spotlight">
+                    <div class="content">
+                        <header class="major">
+                             <h2>About</h2>
+                        </header>
+                        <p>
+                            Hello! My name is Cassey and I am an undergraduate computer engineering student at University of Toronto. 
+                            In addition to my major, I am pursuing a minor in business and a certificate in artificial intelligence. 
+                            On this page, I share my projects, interests, and more! Thanks so much for visiting!
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="main special">
+                <header class="major">
+                    <h2>Projects and Labs</h2>
+                </header>
+                <ul class="features">
+                    <li>
+                        <span class="image"><img src="images/mousePic.jpg" alt="" /></span>
+                        <h3>Cat and Mouse Game (C)</h3>
+                        <p>
+                            Worked with a partner to build a game, where the user is a mouse who needs to avoid a cat and travel through a maze to reach a block of cheese. 
+                            Used the DE1-SoC board for user inputs and to display game information.
+                        </p>
+                    </li>
+                    <li>
+                        <span class="image"><img src="images/mapPic.jpg" alt="" /></span>
+                        <h3>Maps Application (C++)</h3>
+                        <p>
+                            Worked in a team of 3 to build a mapping program. 
+                            Used EZGL (drawing package) and GTK to visualize the map UI. 
+                            Used/extended an API querying OpenStreetMap database to obtain and display geographic information.
+                        </p>
+                    </li>
+                    <li>
+                        <span class="image"><img src="images/textPic.jpg" alt="" /></span>
+                        <h3>Text Conferencing (C)</h3>
+                        <p>
+                            Worked with a partner to implement a text conferencing application, where a conference is a list of registered users (clients) that are sending text messages to each other. 
+                            The server and client processes were implemented.
+                        </p>
+                    </li>
+            </section>
+
+            <!-- Other Interests Section -->
+            <section id="interests" class="main special">
+                <header class="major">
+                    <h2>Other Interests</h2>
+                </header>
+                <ul class="features">
+                    <li>
+                        <span class="image"><img src="images/glidingPic.jpg" alt="" /></span>
+                        <h3>Flying</h3>
+                        <p>
+                            I work part-time as a familiarization glider pilot for the Royal Canadian Air Cadet Program. 
+                            In this role, I take cadets up for glider flights to introduce them to gliding, and hopefully inspire them to pursue their glider/private pilot licenses through the program.
+                        </p>
+                    </li>
+                    <li>
+                        <span class="image"><img src="images/schoolPic.jpg" alt="" /></span>
+                        <h3>School Community</h3>
+                        <p>
+                            I love being involved in my community and make time for it outside of my courses. 
+                            I was a head leader for engineering orientation week, an executive for two years with Sustainable Engineers Association, and I played some games with the intramural girls’ hockey team.
+                        </p>
+                    </li>
+                    <li>
+                        <span class="image"><img src="images/snowboardPic.jpg" alt="" /></span>
+                        <h3>Outdoor Activies</h3>
+                        <p>
+                            I am always excited to be outside and active! 
+                            I worked as a snowboard instructor for the City of Toronto and played sports–such as ice hockey and soccer–growing up! 
+                            I also really enjoy hiking, biking, swimming, and joining drop-in fitness classes at my school’s gym!
+                        </p>
+                    </li>
+            </section>
+
+        </div>
+
+        <!-- Footer, Contact Information -->
+		<footer id="footer">
+			<h2>Contact Info</h2>
+			<ul class="icons">
+                <li><a href="mailto: casseys0000@gmail.com" class="icon fa-envelope alt"><span class="label">Email</span></a></li>
+				<li><a href="https://github.com/casseyshao" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+				<li><a href="https://www.linkedin.com/in/casseyshao" class="icon brands fa-linkedin alt"><span class="label">LinkedIn</span></a></li>
+			</ul>
+			<p class="copyright">
+                Credits: This page was developed using the 'Stellar' template by: <a href="https://html5up.net">HTML5 UP</a>.
+            </p>
+		</footer>
+
+        <!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
     </body>
 </html>
