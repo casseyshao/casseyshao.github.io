@@ -2404,7 +2404,7 @@ input, select, textarea {
 	}
 
 	header.major {
-		margin-bottom: 3em;
+		margin-bottom: 0;
 	}
 
 		header.major h2 {
@@ -2680,14 +2680,15 @@ input, select, textarea {
 			display: inline-block;
 			margin-left: 4em;
 			padding: 0.65em;
-			border-radius: 100%;
+			/*border-radius: 100%;*/
 			border: solid 1px;
 		}
 
 			.spotlight .image img {
 				display: block;
-				border-radius: 100%;
-				width: 16em;
+				/*border-radius: 100%;*/
+				height: 16em;
+				width: 32em;
 			}
 
 		@media screen and (max-width: 980px) {
@@ -2738,9 +2739,10 @@ input, select, textarea {
 				padding: 0.35em;
 			}
 
-				.spotlight .image img {
+				/*.spotlight .image img {
+					height: 6em;
 					width: 12em;
-				}
+				}*/
 
 		}
 

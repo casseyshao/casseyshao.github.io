@@ -26,7 +26,7 @@
             </ul>
         </nav>
 
-        <!-- Main -->
+        <!--Main-->
         <div id="main">
 
             <!--About Section-->
@@ -48,36 +48,69 @@
             </section>
 
             <!--Projects Section-->
-            <section id="projects" class="main special">
+            <section id="projects" class="main">
                 <header class="major">
-                    <h2>Projects and Labs</h2>
+                    <h2 style="text-align: center;">Projects and Labs</h2>
                 </header>
-                <ul class="features">
-                    <li>
-                        <span class="image"><img src="images/mousePic.jpg" alt="" /></span>
-                        <h3>Cat and Mouse Game (C)</h3>
+                <!--My eFridge-->
+                <div class="spotlight" style="margin-bottom: 4em;">
+                    <div class="content">
+                        <h3 style="font-weight:500;">My eFridge</h3>
                         <p>
-                            Worked with a partner to build a game, where the user is a mouse who needs to avoid a cat and travel through a maze to reach a block of cheese. 
-                            Used the DE1-SoC board for user inputs and to display game information.
+                            My eFridge is a project for the food insecurity prompt at the ElleHacks 2022 hackathon.
+                            The concept is an application which acts as a smart fridge to reduce food waste. It allows both, individual households 
+                            and businesses which store food, to monitor their inventory and be notified of upcoming expiry dates for food.
+                            The prototype is a webpage built with HTML5, CSS3, and JavaScript.
                         </p>
-                    </li>
-                    <li>
-                        <span class="image"><img src="images/mapPic.jpg" alt="" /></span>
-                        <h3>Maps Application (C++)</h3>
+                        <ul class="actions">
+                            <li><a href="https://devpost.com/software/my-efridge" class="button">Devpost</a></li>
+                            <li><a href="https://github.com/mehagupta22/MyFridge" class="button">GitHub Repository</a></li>
+                        </ul>
+                    </div>
+                    <span class="image"><img src="images/myeFridgeImage.png" alt="" /></span>
+                </div>
+                <!--Cat and Mouse Game-->
+                <div class="spotlight">
+                    <div class="content" style="margin-bottom: 3em;">
+                        <h3 style="font-weight:500;">Cat and Mouse Game</h3>
                         <p>
-                            Worked in a team of 3 to build a mapping program. 
-                            Used EZGL (drawing package) and GTK to visualize the map UI. 
-                            Used/extended an API querying OpenStreetMap database to obtain and display geographic information.
+                            Cat and Mouse Game is a project with the goal of maximizing use of the inputs and outputs on the Terasic 
+                            DE1-SoC to display a game. This game requires the player, who is the mouse, to navigate through a
+                            maze and reach a block of cheese, before the time ends and without touching the moving cat. 
+                            This project was built using the C programming language.
                         </p>
-                    </li>
-                    <li>
-                        <span class="image"><img src="images/textPic.jpg" alt="" /></span>
-                        <h3>Text Conferencing (C)</h3>
+                        <ul class="actions">
+                            <li><a href="https://github.com/casseyshao/Cat_Mouse_Game" class="button">GitHub Repository</a></li>
+                        </ul>
+                    </div>
+                    <span class="image"><img src="images/catMouseGameImage.png" alt="" /></span>
+                </div>
+                <!--Maps Application-->
+                <div class="spotlight">
+                    <div class="content" style="margin-bottom: 3em;">
+                        <h3 style="font-weight:500;">Maps Application</h3>
                         <p>
-                            Worked with a partner to implement a text conferencing application, where a conference is a list of registered users (clients) that are sending text messages to each other. 
-                            The server and client processes were implemented.
+                            This Maps Application consisted of exploring the considerations that go into designing map/GPS 
+                            systems such as Google Maps. Some of my contributions included extending an API retrieving data 
+                            from the OpenStreetMap database to return richer information (e.g., distance between two points) and 
+                            visualizing the map (e.g., adding logic for displaying elements at various zoom levels).
+                            This project was built using the C++ programming language.
                         </p>
-                    </li>
+                    </div>
+                    <span class="image"><img src="images/mapsAppImage.png" alt="" /></span>
+                </div>
+                <!--Text Conferencing Application-->
+                <div class="spotlight">
+                    <div class="content" style="margin-bottom: 3em;">
+                        <h3 style="font-weight:500;">Text Conferencing</h3>
+                        <p>
+                            Worked with a partner to implement a text conferencing application, where a conference is a list of registered users (clients) 
+                            that are sending text messages to each other. The server and client processes were implemented.
+                            This lab was built using the C programming language.
+                        </p>
+                    </div>
+                    <span class="image"><img src="images/textConferencingImage.png" alt="" /></span>
+                </div>
             </section>
 
             <!--Other Interests Section-->
